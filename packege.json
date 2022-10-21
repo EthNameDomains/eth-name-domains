@@ -1,0 +1,20 @@
+{
+  "name": "eth-name-domains",
+  "version": "1.0.0",
+  "description": ".ethereum Name Service API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthNameDomains/eth-name-domains.git"
+  },
+  "author": "EthNameDomains",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EthNameDomains/eth-name-domains/issues"
+  },
+  "homepage": "https://github.com/EthNameDomains/eth-name-domains#readme",
+  "keywords": []
+}
