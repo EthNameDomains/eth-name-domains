@@ -223,7 +223,7 @@ Changes the resolve address.
 
 Registers a new .ethereum address and returns the result.
 ```javascript
-ethName.register("new_domain.ethereum",YOUR_ETH_ADDRESS,YOUR_REFERRAL_ADDRESS,web3.utils.toWei('0.04', 'ether')).then(function(result){
+ethName.register("name",YOUR_ETH_ADDRESS,YOUR_REFERRAL_ADDRESS,web3.utils.toWei('0.04', 'ether')).then(function(result){
     if (result['status']) {
         // Registration Successful
     } else {
