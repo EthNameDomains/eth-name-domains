@@ -210,7 +210,7 @@ ethName.setPrimaryAddress("name.ethereum","OWNER_ETH_ADDRESS").then(function(res
 
 Changes the resolve address.
 ```javascript
- ethName.setResolveAddress("ether_domain.ethereum","NEW_RESOLVE_ETH_ADDRESS", "OWNER_ETH_ADDRESS").then(function(result){
+ ethName.setResolveAddress("name","NEW_RESOLVE_ETH_ADDRESS", "OWNER_ETH_ADDRESS").then(function(result){
         if (result['status']) {
         //Successful
         } else {
